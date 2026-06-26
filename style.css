@@ -48,11 +48,16 @@ body {
   100% { transform: translateX(-100%); }
 }
 
+.Company_logo {
+  text-align: left;   /* aligns container to the left */
+  margin-left: 150px;  /* adjust spacing from the edge */
+  margin-bottom: 0;
+}
 .Company-Logo {
-  display: block;          /* makes the image behave like a block */
-  margin: 0 auto;          /* centers it horizontally */
-  width: 400px;            /* scale down for balance */
+  display: block;          /* makes the image behave like a block */        /* centers it horizontally */
+  width: 180px;            /* scale down for balance */
   height: auto;            /* keep aspect ratio */
+  margin-bottom: 0px;
   border-radius: 12px;     /* rounded corners */
   box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow */
   background: rgb(251, 144, 91); /* optional background */
@@ -143,7 +148,8 @@ a {
 .hero {
   width: min(1180px, calc(100% - 40px));
   min-height: calc(100vh - 76px);
-  margin: 0 auto;
+  margin-left:150px;
+  margin-top: 0;
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.95fr);
   align-items: center;
